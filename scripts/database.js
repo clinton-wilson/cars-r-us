@@ -90,10 +90,10 @@ const database = {
     customCars: [
         {
             id: 1,
-            colorId: 1,
+            paintsId: 1,
             interiorId: 1,
-            technologyId: 1,
-            wheelId: 1
+            technologiesId: 1,
+            wheelsId: 1
         }
 
     ],
@@ -125,7 +125,7 @@ export const setInteriors = (id) => {
     database.orderBuilder.interiorId = id
 }
 
-export const setPaints  = (id) => {
+export const setPaints = (id) => {
     database.orderBuilder.paintsId = id
 }
 
